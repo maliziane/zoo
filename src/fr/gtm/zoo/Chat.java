@@ -6,12 +6,13 @@ public class Chat extends Animal{
 		super(nom);
 	}
 
-	public void manger() {
-		System.out.println("Le chat "+this.getNom()+" mange des croquettes");
+@Override
+public void manger() {
+System.out.println("Le chat "+this.getNom()+" mange des croquettes");
 	}
 	
-	
-	public void crier() {
-		System.out.println("Le chat "+this.getNom()+" miaule miaawww");
+@Override
+public void crier() {
+System.out.println("Le chat "+this.getNom()+" miaule miaawww");
 	}
 }
